@@ -5,9 +5,7 @@ services:
     image: alinmear/docker-conanexiles
     restart: always
     environment:
-      - "CONANEXILES_ServerSettings_ServerSettings_AdminPassword=ThanksForThisSmartSolution"
-      - "CONANEXILES_Engine_OnlineSubSystemSteam_ServerName='My Cool Server'"
-      - "CONANEXILES_Engine_OnlineSubSystemSteam_ServerPassword=MySecret"
+      - "CONANEXILES_Engine_OnlineSubSystemSteam_ServerName='LaggyGamerz Public'"
     ports:
         - 7787:7787/udp
         - 7788:7788/udp
