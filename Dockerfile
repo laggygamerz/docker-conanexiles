@@ -25,7 +25,7 @@ ADD files/conanexiles.conf /etc/supervisor/conf.d/conanexiles.conf
 
 RUN chmod +x /usr/bin/steamcmd_setup /usr/bin/conanexiles_controller /entrypoint.sh
 
-EXPOSE 7787/udp 27025/udp 27026/udp 37025/udp 37026/udp  
+EXPOSE 27025/udp 27026/udp 27027/udp 37025/udp 37026/udp  
 
 VOLUME ["/conanexiles"]
 
